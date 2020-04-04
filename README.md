@@ -11,14 +11,11 @@
     <a href="https://github.com/OsmiCSX/osmicsx"><img src="https://img.shields.io/npm/v/osmicsx.svg" alt="OsmiCSX"></a>
 </p>
 
-[![MIT License][license-image]][license-url] [![Stars][stars-image]][stars-url] [![js-standard-style][js-standard]][js-standard-url] [![React Native][package-react-native]][react-native-url]
-
-
 ---
 
 <p align="center">
-<img src="https://i.imgur.com/kqhqifr.png" style="width:200px;height:400px;" />
-<img src="https://i.imgur.com/qEYYYzU.png" style="width:205px;height:400px;" />
+  <img src="https://i.imgur.com/kqhqifr.png" width="200px" height="400px;" />
+  <img src="https://i.imgur.com/qEYYYzU.png" width="205px" height="400px;" />
 </p>
 
 ## Prerequisites

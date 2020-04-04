@@ -1,32 +1,33 @@
-#  gDoctor
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+<p align="center">
+<h1>gDoctor</h1>
+gDoctor is an open source mobile app built with React Native and OsmiCSX for learning purpose.
 
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+[![MIT License][license-image]][license-url] [![Stars][stars-image]][stars-url] [![js-standard-style][js-standard]][js-standard-url] [![React Native][package-react-native]][react-native-url]
+</p>
 
-## :arrow_up: How to Setup
+## Prerequisites
+- Xcode or Android Studio installed and exported on your ~/.bash_profile or similar
+- JDK 1.8
+- Node >= 12.*
+- react-native-cli
 
-**Step 1:** git clone this repo:
+## Installation
+open terminal and change directory to your desired folder, then:
+```
+$ git clone git@github.com:libscode/gDoctor.git YourAppName
+$ cd YourAppName
+$ yarn install
+$ cd ios && pod install
+```
+## Run Your App
+```
+$ npx react-native run-android
+$ npx react-native run-ios
+```
+## License
+The code is available at [GitHub][home] under the [MIT license][license-url].
 
-**Step 2:** cd to the cloned repo:
-
-**Step 3:** Install the Application with `yarn` or `npm i`
-
-
-## :arrow_forward: How to Run App
-
-1. cd to the repo
-2. Run Build for either OS
-  * for iOS
-    * run `npx react-native run-ios`
-  * for Android
-    * Run Genymotion
-    * run `npx react-native run-android`
-
-## :no_entry_sign: Standard Compliant
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-This project adheres to Standard.  Our CI enforces this, so we suggest you enable linting to keep your project compliant during development.
-
+## Additional
 **To Lint on Commit**
 
 This is implemented using [husky](https://github.com/typicode/husky). There is no additional setup needed.
@@ -65,3 +66,27 @@ The `.env` file is ignored by git keeping those secrets out of your repo.
 2. Add your config variables
 3. Follow instructions at [https://github.com/luggit/react-native-config#setup](https://github.com/luggit/react-native-config#setup)
 4. Done!
+
+## Credit
+[Medical Icon Pack (FlatIcon)](https://www.flaticon.com/packs/medical-71)
+
+## Contributors
+Suggestions and contributions are welcome via Pull Requests.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars3.githubusercontent.com/u/8052370" width="100px;"/><br /><sub><b>Rully Ardiansyah</b></sub>](https://github.com/DeVoresyah)<br />[💻](https://github.com/libscode/gDoctor/commits?author=DeVoresyah "Code") [📖](https://github.com/libscode/gDoctor/commits?author=DeVoresyah "Documentation") [💬](#question-devoresyah "Answering Questions") [👀](#review-devoresyah "Reviewed Pull Requests") [💡](#example-devoresyah "Examples") | [<img src="https://cdn.dribbble.com/users/3923944/avatars/normal/98dc1d0a1e98f9372c221a92c1f48003.jpg?1568781500" width="100px;"/><br /><sub><b>Gilang Segara Bening</b></sub>](https://dribbble.com/bungspaces)<br /> [🎨](#logo-design "UI/UX Design") [💡](#concept-arkanpo "Concept") |
+| :---: | :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+[home]: https://github.com/libscode/gDoctor
+
+[license-image]: https://img.shields.io/github/license/libscode/gDoctor.svg?style=flat
+[license-url]: LICENSE
+
+[stars-image]: https://img.shields.io/github/stars/libscode/gDoctor.svg?style=flat
+[stars-url]: https://github.com/DeVoresyah/JeptureApp/stargazers
+
+[js-standard]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[js-standard-url]: http://standardjs.com/
+
+[package-react-native]: https://img.shields.io/badge/react--native-0.61.4-blue.svg?style=flat
+[react-native-url]: https://github.com/facebook/react-native

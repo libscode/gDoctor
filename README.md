@@ -8,7 +8,7 @@
     <a href="https://github.com/DeVoresyah/JeptureApp/stargazers"><img src="https://img.shields.io/github/stars/libscode/gDoctor.svg?style=flat" alt="Stars"></a>
     <a href="http://standardjs.com/"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat" alt="JS Standard"></a>
     <a href="https://github.com/facebook/react-native"><img src="https://img.shields.io/badge/react--native-0.61.4-blue.svg?style=flat" alt="React Native"></a>
-    <a href="https://github.com/OsmiCSX/osmicsx"><img src="https://img.shields.io/npm/v/osmicsx.svg" alt="OsmiCSX"></a>
+    <a href="https://github.com/OsmiCSX/osmicsx"><img src="https://img.shields.io/badge/osmicsx-0.3.2-orange.svg?style=flat" alt="OsmiCSX"></a>
 </p>
 
 ---

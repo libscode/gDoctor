@@ -1,8 +1,24 @@
 <p align="center">
-<h1>gDoctor</h1>
-gDoctor is an open source mobile app built with React Native and OsmiCSX for learning purpose.
+  <h1>gDoctor</h1><br>
+  gDoctor is an open source mobile app built with React Native and OsmiCSX for learning purpose.
+</p>
+
+<p align="center">
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/libscode/gDoctor.svg?style=flat" alt="LICENSE"></a>
+    <a href="https://github.com/DeVoresyah/JeptureApp/stargazers"><img src="https://img.shields.io/github/stars/libscode/gDoctor.svg?style=flat" alt="Stars"></a>
+    <a href="http://standardjs.com/"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat" alt="JS Standard"></a>
+    <a href="https://github.com/facebook/react-native"><img src="https://img.shields.io/badge/react--native-0.61.4-blue.svg?style=flat" alt="React Native"></a>
+    <a href="https://github.com/OsmiCSX/osmicsx"><img src="https://img.shields.io/npm/v/osmicsx.svg" alt="OsmiCSX"></a>
+</p>
 
 [![MIT License][license-image]][license-url] [![Stars][stars-image]][stars-url] [![js-standard-style][js-standard]][js-standard-url] [![React Native][package-react-native]][react-native-url]
+
+
+---
+
+<p align="center">
+<img src="https://i.imgur.com/kqhqifr.png" style="width:200px;height:400px;" />
+<img src="https://i.imgur.com/qEYYYzU.png" style="width:205px;height:400px;" />
 </p>
 
 ## Prerequisites
@@ -78,15 +94,3 @@ Suggestions and contributions are welcome via Pull Requests.
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [home]: https://github.com/libscode/gDoctor
-
-[license-image]: https://img.shields.io/github/license/libscode/gDoctor.svg?style=flat
-[license-url]: LICENSE
-
-[stars-image]: https://img.shields.io/github/stars/libscode/gDoctor.svg?style=flat
-[stars-url]: https://github.com/DeVoresyah/JeptureApp/stargazers
-
-[js-standard]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
-[js-standard-url]: http://standardjs.com/
-
-[package-react-native]: https://img.shields.io/badge/react--native-0.61.4-blue.svg?style=flat
-[react-native-url]: https://github.com/facebook/react-native

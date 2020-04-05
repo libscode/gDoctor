@@ -56,7 +56,8 @@ export default connect({
   infoDot: [
     "small-dot",
     "bg-muted",
-    "mx-2"
+    "mx-2",
+    "rounded-full"
   ],
   totalReview: [
     "text-xxs",

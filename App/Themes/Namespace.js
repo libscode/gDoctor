@@ -1,4 +1,4 @@
-import { scaleWidth } from 'osmicsx'
+import { scaleHeight, scaleWidth } from 'osmicsx'
 import { Platform } from 'react-native'
 
 export default {
@@ -50,6 +50,7 @@ export default {
 
   "bg-muted": { backgroundColor: "#CACCCF" },
   "text-muted": { color: "#CACCCF" },
+  "border-muted": { borderColor: "#CACCCF" },
 
   "bg-background": { backgroundColor: "#F6F6F6" },
   "text-gray-dark": { color: "#A0A4A8" },
@@ -65,6 +66,7 @@ export default {
   "w-88": { width: 88 },
   "h-80": { height: 80 },
   "h-24": { height: 24 },
+  "h-s80": { height: scaleHeight(80) },
   "min-w-38": { width: scaleWidth(38) },
 
   // top right bottom left
@@ -72,5 +74,9 @@ export default {
   "-left-3": { left: scaleWidth(Platform.OS == "android" ? 5 : 2) },
 
   // etc
-  "small-dot": { width: 3, height: 3 }
+  "small-dot": { width: 3, height: 3 },
+  "medium-dot": { width: 5, height: 5 },
+
+  "border-r": { borderRightWidth: 1 },
+  "border-r-0": { borderRightWidth: 0 }
 }

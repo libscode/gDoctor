@@ -1,4 +1,7 @@
 import IconSearchSvg from '../Images/icon-search.svg'
+import IconBackSvg from '../Images/icon-back.svg'
+import IconBookmarkSvg from '../Images/icon-bookmark.svg'
+import IconChatSvg from '../Images/icon-chat.svg'
 
 // Category Home
 import IconBandageSvg from '../Images/icon-bandage.svg'
@@ -14,6 +17,9 @@ import IconTeethSvg from '../Images/icon-teeth.svg'
 import IconStar5Svg from '../Images/icon-star5.svg'
 
 export const IconSearch = IconSearchSvg
+export const IconBack = IconBackSvg
+export const IconBookmark = IconBookmarkSvg
+export const IconChat = IconChatSvg
 
 // Category Home
 export const IconBandage = IconBandageSvg

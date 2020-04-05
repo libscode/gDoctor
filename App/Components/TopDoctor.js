@@ -22,7 +22,10 @@ const topDoctor = props => {
         </View>
       )}
       renderItem={({ item, index }) => (
-        <TouchableOpacity activeOpacity={0.9} style={styles.card}>
+        <TouchableOpacity
+        activeOpacity={0.9}
+        style={styles.card}
+        onPress={() => NavigationService.navigate("DoctorDetail", {data:item})}>
           <Image source={item.thumb} style={styles.thumb} />
 
           <View style={apply("flex")}>

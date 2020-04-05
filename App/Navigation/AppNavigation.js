@@ -6,9 +6,15 @@ import styles from './Styles/NavigationStyles'
 
 import SplashScreen from '../Containers/SplashScreen'
 
-import AccountScreen from '../Containers/AccountScreen'
-import InboxScreen from '../Containers/InboxScreen'
+// home stack
 import HomeScreen from '../Containers/HomeScreen'
+import DoctorDetailScreen from '../Containers/DoctorDetailScreen'
+
+// inbox stack
+import InboxScreen from '../Containers/InboxScreen'
+
+// account stack
+import AccountScreen from '../Containers/AccountScreen'
 
 // Manifest of possible screens
 const AppStack = createStackNavigator({
@@ -21,6 +27,7 @@ const AppStack = createStackNavigator({
 
   // Home Stack
   HomeScreen: { screen: HomeScreen },
+  DoctorDetail: { screen: DoctorDetailScreen },
 
   // Inbox Stack
   InboxScreen: { screen: InboxScreen },

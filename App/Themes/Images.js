@@ -3,6 +3,7 @@ const images = {
   thumbDoctor1: require('../Images/thumb-doctor1.jpg'),
   thumbDoctor2: require('../Images/thumb-doctor2.jpg'),
   thumbDoctor3: require('../Images/thumb-doctor3.jpg'),
+  detailDoctor: require('../Images/detail-doctor.jpg')
 }
 
 export default images
